@@ -34,6 +34,6 @@ I like to download the entire year's file.  You can learn a lot about the life o
 
 ### Throw it in the hopper
 
-Drag and drop the .zip files you just downloaded into Claude Cowork.  Don't worry about unzipping them--it's actually easier not to.  You can prompt claude by just typing `/quebec-parish-register` into the chat box, or even nothing at all.  If you give it a little context on the people you're interested in and the goals of your research, it will highlight those people and call interesting facts to your attention.  Or you can just have it translate and transcribe
+Drag and drop the .zip files you just downloaded into Claude Cowork.  Don't worry about unzipping them--it's actually easier not to.  You can prompt claude by just typing `/quebec-parish-register` into the chat box, or even nothing at all.  You do need to select the model--I find it works _okay_ with Sonnet 4.8 and _great_ with Opus 4.8-high.  I would not have Hauku even attempt this task.  If you give it a little context on the people you're interested in and the goals of your research, it will highlight those people and call interesting facts to your attention.  Or you can just have it translate and transcribe.
 
 For larger groups of records, Claude will need multiple "turns" (prompt and response) to get through them all.  Every 20 minutes or so, you'll get a chat with a progress update and something like "shall I continue?"  Just tell it to continue and let it do its thing.
