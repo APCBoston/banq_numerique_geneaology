@@ -1,5 +1,11 @@
 # BanQ Numérique Geneaology Assistant
 
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
+
 This repository houses an AI-assisted workflow for Geneaological research in 19th century Quebec.  In particual, I created this to help me with a reccurring problem: once I identified an ancestor's date and place of birth, I needed to download the digitized baptismal record from the Quebec National Library and Archive Online, or [BanQ Numérique](https://numerique.banq.qc.ca/).  But these archives are tough to decipher.  They are the handwritten scrawl of a priest, often faded, digitized over a century later.  They contain scribal abbrevations that are unfamiliar to me--and also I don't read French!
 
 This tool consists of a Claude skill that allows you to dump zip files with dozens of these records into Claude Cowork, go do anything else for a while, and have Claude make you a very nice bilingual transcript of the records.  I've been using it for a few days, I've found it HIGHLY reliable, and so I am releasing it into the wild, in the hope, as they say, that it will be useful.  This will, of course, also work on documents from the Drouin Collection--which is just a different digitization of the same source material.
